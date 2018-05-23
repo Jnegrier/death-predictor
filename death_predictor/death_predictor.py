@@ -30,15 +30,18 @@ def start_session():
 @ask.launch
 def new_game():
     welcome_msg = render_template('welcome')
+    session.attributes['last_question'] = 'welcome'
+    ask_again = render_template('continue')
 
-    return question(welcome_msg)
+    return question(welcome_msg).reprompt(ask_again)
 
 
 @ask.intent("AMAZON.YesIntent")
 def next_round():
     _question = render_template('name')
+    session.attributes['last_question'] = 'name'
 
-    return question(_question)
+    return question(_question).reprompt(_question)
 
 @ask.intent("AMAZON.NoIntent")
 def next_round():
@@ -48,37 +51,42 @@ def next_round():
 @ask.intent("nameIntent")
 def next_round():
     msg = render_template('thanks')
-    statement(msg)
-
     _question = render_template('dob')
-    
-    return question(_question)
+    session.attributes['last_question'] = 'dob'
+
+    return question(msg + _question).reprompt(_question)
 
 @ask.intent("dobIntent")
 def next_round():
-    msg = render_template('thanks')
-    statement(msg)
+    msg = render_template('msg_before_prediction')
+    prediction = render_template('prediction', story=stories[randint(0, 3)])
 
-    _question = render_template('prediction', story=stories[randint(0, 3)])
-    
-    return statement(_question)
+    return statement(msg + prediction)
 
 @ask.intent('AMAZON.StopIntent')
 def handle_stop():
     farewell_text = render_template('stop_bye')
     return statement(farewell_text)
 
-
 @ask.intent('AMAZON.CancelIntent')
 def handle_cancel():
     farewell_text = render_template('cancel_bye')
     return statement(farewell_text)
 
-
 @ask.intent('AMAZON.HelpIntent')
 def handle_help():
     help_text = render_template('help_text')
     return question(help_text)
+
+@ask.intent('AMAZON.StartOverIntent')
+def handle_start_over():
+    start_over = render_template('welcome')
+    return question(start_over)
+
+@ask.intent('AMAZON.FallbackIntent')
+def handle_fallback():
+    last_question = render_template(session.attributes['last_question'])
+    return question(last_question)
 
 if __name__ == '__main__':
     app.run(debug=True)

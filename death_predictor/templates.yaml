@@ -7,13 +7,23 @@ cancel_bye: |
 help_text: |
   Death Predictor is an Alexa skill that tries to predict death. to start over, just say Start Over.
 
-name: Okay first question, tell me your name?
+name: |
+  Okay first question, tell me your name?
 
-dob: Second, tell me the date you were born
+dob: |
+  Second, tell me the date you were born
 
-thanks: Thanks, next question
+thanks: |
+  Thanks, next question
 
-negative: Well, if you have the guts to ask me about your death, just invoke me again
+continue: |
+  So, do you want to continue?
+
+msg_before_prediction: |
+  Thanks, the moment to know your destiny has arrived...
+
+negative: |
+  Well, if you have the guts to ask me about your death, just invoke me again
 
 prediction: |
-  {{ story }} 
+  {{ story }}
