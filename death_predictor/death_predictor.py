@@ -44,12 +44,12 @@ def next_round():
     return question(_question).reprompt(_question)
 
 @ask.intent("AMAZON.NoIntent")
-def next_round():
+def goodbye():
     msg = render_template('negative')
     return statement(msg)
 
 @ask.intent("nameIntent")
-def next_round():
+def name_question():
     msg = render_template('thanks')
     _question = render_template('dob')
     session.attributes['last_question'] = 'dob'
@@ -57,9 +57,9 @@ def next_round():
     return question(msg + _question).reprompt(_question)
 
 @ask.intent("dobIntent")
-def next_round():
+def dob_question():
     msg = render_template('msg_before_prediction')
-    prediction = render_template('prediction', story=stories[randint(0, 3)])
+    prediction = render_template('prediction', story=stories[randint(0, 15)])
 
     return statement(msg + prediction)
 
