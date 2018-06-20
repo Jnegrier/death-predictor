@@ -1,5 +1,5 @@
 
-stories = {\
+english_stories = {\
         0: "Is May 21st 2020, you are going to be at home with a friend,\
         you smell something, you ask your friend, dont you smell something\
         strange?, so you get up and check that old gas oven, crap! gas!\
@@ -278,3 +278,234 @@ stories = {\
         The fever keeps rising, you're delirious, you're sweating, you're writhing in pain.\
         You don't know where you are. You don't know what's wrong with you...\
         Luckily, after a while you rest... You're dead"}
+
+spanish_stories = {
+        0: "Es el 22 de Agosto del 2034, has sido acusado de asesinato en primer grado, mataste a un tendero y a una cliente \
+        a sangre fría y eres declarado culpable y condenado a muerte 'gracias' a las nuevas leyes. \
+        Si, es cierto, no fuiste tu, pero estabas en el lugar equivocado en el momento equivocado, \
+        en el instante de tu ejecución solo tu crees en tu inocencia…",
+
+        1: "Es el 12 de Enero del 2027, hueles algo, no huele raro? le preguntas a tu colega que \
+        ha venido a tu casa a ver el partido, te levantas y vas a la vieja cocina que aún funciona con \
+        gas, mierda!, el gas! piensas, lo cierras mientras llega tu amigo, que te pregunta: qué pasa? y \
+        cuando te giras a contárselo tu rostro refleja el miedo al ver a cámara lenta como tu amigo enciende \
+        su cigarrillo y tu grito se ahoga con el sonido de la explosión...",
+
+        2: "Es el 17 de marzo del 2044, Te bajas del coche, con tu pareja. Ha costado encontrar sitio para \
+        aparcar, pero lo habéis logrado. La tarde es agradable, una temperatura perfecta para pasear, una \
+        tarde de viernes. Respiras profundamente, con una sonrisa en la boca. Entonces sucede. ¿Una explosión? \
+        No, un rayo, un rayo ha caído en un árbol cercano, partiéndolo por la mitad. De repente, las inofensivas \
+        nubes no parecen tan inofensivas, son oscuras y negras. Y amenazantes. Otro rayo. Otros dos. El blanco \
+        de los rayos contrasta con la oscuridad de las nubes. Los truenos te rodean por todos los lados, es una \
+        tormenta eléctrica como nunca se había visto ninguna. Los edificios se llevan la mayor parte, pero alguno \
+        llega hasta el suelo. Otro rayo cae sobre un semáforo, desmontandolo y tirándolo contra un coche. Te tapas \
+        los oídos, los truenos son ensordecedores. Corres, pero no sabes a dónde. Acabas de ver como un rayo le cae \
+        a alguien a lo lejos. Te quedas clavado en el sitio, intentando reaccionar, el cuerpo no se mueve. \
+        Instintivamente corres a guarecerte pegándote a la pared de un edificio. No tienes muy claro que tu \
+        refugio sea lo más seguro, pero has visto que es mejor que quedarse en mitad de la calle. Notas un \
+        escalofrío en la nuca. La pared está muy fría, la tocas con la mano en la espalda, y notas el tacto. \
+        Rápidamente te giras, y te das cuenta de que estás agarrado a un canalón. Metálico. Oyes un trueno más, \
+        el último, sobre tu cabeza. No te da tiempo a mirar hacia arriba o a soltar el canalón, el rayo se mete en \
+        tu cuerpo, y lo último que ve es todo blanco.",
+
+        3: "Es el 9 de Abril del 2052, Vas a trabajar, estás cansado, no te apetece nada, la verdad. Intentas \
+        concentrarte en el día que te espera, y las cosas que tendrás que hacer, pero la cama está todavia en tu \
+        cabeza, y te imaginas cómodamente durmiendo. No es justo, no deberías tener que ir a trabajar hoy. Ojalá \
+        pase algo, y no tenga que ir a trabajar, eso piensas, durante un segundo. Y tras ese breve segundo, tu deseo \
+        se cumple. El cielo, las nubes, que hasta ahora eran grises, ahora son... rojas. No tienen el color que adquieren \
+        al atardecer. Es rojo fuego, naranja, amarillo. Es fuego. Fuego en el cielo... Un segundo, y piensas Es un \
+        meteorito, es un jodido meteorito que va a caer sobre la tierra. Dos segundos No puede ser, eso sólo pasa \
+        en las películas. Tres segundos y lo ves, no sólo pasa en las películas, es un meteorito, enorme, no puedes, \
+        no sabes calcular dónde caerá, pero es cerca. Muy cerca. Está aquí. Cuatro segundos y estás muerto",
+
+        4: "Es el 15 de Noviembre del 2071, Queda una hora para que llegue, y tienes tres fogones encendidos. \
+        Su plato favorito, verás que cara le queda a tu pareja cuando llegue a casa y vea lo que le has preparado. \
+        Te mueves rápidamente entre los trastos de cocina, el aceite chisporrotea en una sartén, el calor empieza \
+        a agobiarte. Pero sabes que el esfuerzo merece la pena, puede que ni acabéis la cena, y ya estéis con el \
+        postre. Dejas calentando el aceite en la sartén un rato, te quedas pensando en tus cosas, mientras observas \
+        cómo comienza a calentarse. En ese momento suena el teléfono. Apenas lo oyes con el ruido de la campana \
+        extractora. Sales de la cocina, y respondes al teléfono. Es tu jefe. Qué pocas ganas de hablar con él. \
+        Comienza a agobiarte a preguntas, mientras tú sólo piensas que no son horas de trabajar, que no deberías \
+        aguantar esta mierda. Vas a tu habitación, en busca de unos informes, para contrastar unas fechas, cierras \
+        la puerta de la cocina de la que vas, el ruido de la campana extractora es muy fuerte, y apenas puedes oir a \
+        tu jefe, a pesar de lo que grita. Recoges los papeles, y comienzas a discutir de fechas, una no cuadra, \
+        la que tiene tu jefe no es la misma que tienes tú, y sobre esa fecha, sobre esa estúpida fecha os pasáis \
+        discutiendo y gritando sabe dios cuánto tiempo. Al rato te das cuenta de que has dejado la sartén con \
+        aceite, y no sabes cuánto tiempo lleva así. Le dices algo a tu jefe, y corres rápidamente a la cocina, \
+        abriendo la puerta. La llamarada es tan rápida que ni siquiera te duele. La combustión que has provocado \
+        al abrir la puerta, y alimentar el pequeño incendio que había en tu cocina te derriba, y comienza a \
+        propagarse. Tu cuerpo no te duele, o te duele demasiado, no lo tienes claro. No ves nada, solo oyes \
+        el crepitar del fuego a tu alrededor, y el teléfono, donde tu jefe te grita. ¿Sigues ahí? ¡Contesta joder! \
+        Arréglame esas fechas o estás despedido, ¿me oyes? ¡Estás despedido! Da igual. Estás muerto",
+
+        5: "Es el 17 de Mayo del 2053, llevas las manos en los bolsillos, es una noche especialmente fría y \
+        tus manos están un poco entumecidas. Sigues caminando, camino a tu nueva casa. La llamas nueva, pero \
+        ya llevas tiempo viviendo en ella. El suficiente como para que el camino que haces te sea rutinario. \
+        Para creer que no te espera ninguna sorpresa. ¡Eh tú!¡gilipollas! Miras detrás de ti. Un grupo no muy \
+        numeroso se acerca. Uno lleva un bate, otros llevan más objetos que no traen buenos augurios. No te lo \
+        piensas y te lanzas a correr en dirección contraria, mientras comienzan a perseguirte. No tienen motivos \
+        por ir a por mí. ¿Porqué van a por mí? piensas mientras corres, No necesitan motivos, es la puta lotería. \
+        Sigues corriendo, pero pronto uno de ellos te alcanza y te derriba. Una vez en el suelo los golpes empiezan \
+        a caer por demasiados sitios. Lo primero que notas es tu tabique rompiéndose. Cinco golpes más y pierdes la \
+        consciencia. Tras unos cuantos minutos, que se te hacen horas, unas figuras te rodean, no las distingues, \
+        pero ves luces titilantes. Te mueven, con cuidado, y te llevan a un sitio que no llegas a ver, por culpa de \
+        la luz cegadora que hay en tu cara. Todo se mueve muy lentamente. Todo es de color blanco. Finalmente todo \
+        se vuelve negro. Estás muerto.",
+
+        6: "Es el 13 de diciembre del 2034, Te ríes para ti, en voz alta. Todavía te acuerdas de alguna tontería \
+        que dijeron tus amigos esta noche. Es de noche, notas el cansancio en tu cuerpo, notas un pequeño rastro \
+        de alcohol en la sangre, lo suficiente para volver a reírte. Notas cerca tu cama, no ves el momento de \
+        meterte en ella... Una figura viene caminando en la misma acera que tú. Hay algo en su caminar que no te \
+        inspira confianza, parece dirigirse hacia ti y no tiene buena pinta. Cambias de acera, es lo más seguro, \
+        piensas. Sientes un escalofrío al ver que el tipo cambia de acerca, y se cruza contigo interponiéndose en \
+        tu camino. Intentas rodearle, pero vuelve a interponerse. el puto dinero, murmura. Durante un segundo dudas \
+        y balbuceas, y antes de que te dé tiempo a decir algo coherente repite, con un tono más elevado ¡El puto \
+        dinero hostias! El grito te asusta y echas a correr despavorido. El tipo te agarra del brazo, y cuando \
+        giras para zafarte ves un aterrador brillo en su otra mano, con la que te apuñala, primero en el pecho, \
+        luego en el abdomen. Caes en el suelo, retorciéndote de dolor y aún te sorprende la decisión con la que \
+        el tipo saca tu cartera de entre tus bolsillos ensangrentados y echa a correr. Te mueres. Te mueres \
+        joder, y lo sabes. La muerte más tonta, podía haber sido otro, podría haber sido en otro momento, \
+        en otro jodido lugar. Pero no. Te ha tocado a ti. Te ha tocado, y te mueres. Da igual quién venga \
+        ayudarte, sabes que es demasiado tarde, no hay nadie que pueda hacer nada por ti. Te mueres",
+
+        7: "Es el 20 de Agosto del 2027, vas a trabajar, estás cansado, no te apetece nada, la verdad. Intentas concentrarte en el día \
+        que te espera, y las cosas que tendrás que hacer, pero la cama está reciente en tu cabeza, y te \
+        imaginas cómodamente durmiendo. No es justo, no deberías tener que ir a trabajar hoy. Ojalá pase \
+        algo, y no tenga que ir a trabajar piensas, durante un segundo. Y tras ese breve segundo, tu deseo \
+        se cumple ¿Una explosión? No, un rayo, un rayo ha caído en un árbol cercano, partiéndolo por la mitad. \
+        De repente, las inofensivas nubes no parecen tan inofensivas, son oscuras y negras. Y amenazantes. Llueve. \
+        Ligeramente al principio, más fuerte después. En cuestión de segundos es una catarata sobre las calles, que \
+        te deja empapado. En cuestión de minutos la calle se convierte en un río, que te llega por los tobillos. Vas \
+        corriendo a tu casa, caminando como puedes, el agua sigue subiendo, mientras te arrecia encima. Es el jodido \
+        diluvio universal, piensas. Antes de llegar al final de la calle, el agua ya te llega por las rodillas, \
+        te apoyas sobre las paredes para que la corriente no te lleve, pero es muy fuerte y te acaba derribando. \
+        Te deslizas varios metros hasta que te agarras a un coche. Ves a una señora mayor siendo arrastrada por \
+        la corriente cerca tuyo, no la alcanzas, ni lo intentas. Estás demasiado ocupado intentando no ser arrastrado \
+        por la corriente. Intentas subir al coche, por la parte de detrás, y cuando consigues agarrar el techo, sientes \
+        un terrible dolor en las piernas. Otro coche ha sido arrastrado por la corriente y se a estrellado contra el \
+        tuyo, atrapándote. El dolor es insoportable, pero lo peor es la angustia de no poder escapar, mientras el \
+        nivel del agua sube, y sube... Al cabo de varios minutos, tienes que esforzarte por asomar la cabeza y coger \
+        aire. Cada bocanada te cuesta más, cada bocanada tienes que estirarte más. La última bocanada, solo es \
+        agua y barro...",
+
+        8: "Es el 1 de Febrero del 2022,estás en la cama del hospital, llevas semanas enteras ahí. Por suerte o \
+        por desgracia, sabes que no te queda mucho tiempo ahí. No te queda mucho tiempo de vida, vas a morir... \
+        Es lupus. Ningún doctor fue capaz de detectarlo a tiempo, debido a lo errático de tus ataques. \
+        Lo irónico es que no es el lupus lo que te está matando, si no una gripe común, que te ha pillado \
+        sin apenas defensas, por la medicación. Vas a morir de una gripe, y será pronto. Tienes ganas de que \
+        acabe todo. ¿Por qué alargar lo inevitable? Quieres descansar, y que tus amigos y familiares descansen también. \
+        Quieres que acabe esta agonía, llevas meses en ese hospital, agonizando de dolor, repleto de medicamentos, \
+        y sin posibilidades de salir de ahí vivo. Sabes que esa es la última habitación que verás. Tienes suerte, \
+        alguien, no sabes si un familiar o un amigo, pero tienes claro que es alguien que te quiere mucho, te \
+        ha traído unos bombones. La suerte no son los bombones, que no son capaces de alegrarte, la suerte viene \
+        dentro. Uno de los bombones que te dan, llevan algo, no sabes qué, pero te da igual. Lo que te interesa es \
+        que es tu billete de salida, el fin de tu agonía. Te preguntas cuál de tus conocidos puede haber metido veneno, \
+        pero prefieres gastar tus últimos segundos dándole las gracias...",
+
+        9: "Es el 15 de Enero del 2034, muy bien, es la quinta vez que llamas a la azafata, y es la quinta vez que te \
+        ignora. Es lo que faltaba, no sólo te ves metida en un vuelo en el que no querías montar, si no que encima el \
+        servicio es pésimo. Nunca, nunca volverás a viajar en low cost. Al menos queda poco de viaje... El avión está \
+        volando muy bajo, demasiado bajo. Y es muy pronto para haber llegado al aeropuerto. Miras por la ventanilla, \
+        es demasiado bajo, y no ves la pista de aterrizaje por ningún lado. El piloto dice algo por el altavoz, pero \
+        el rugido del motor y lo precipitado de sus palabras logran que ni siquiera sepas en qué idioma lo ha dicho. \
+        Vuelves a mirar por la ventana, por última vez. El avión impacta de frente contra el suelo. Trozos de metal \
+        se retuercen aplastando la cabina y el pasaje. Tu asiento concretamente se parte en dos por un trozo de fuselaje. \
+        Pero te da igual, ya estabas muerta en el momento del impacto.",
+
+        10: "Es el 29 de Diciembre del 2021, te ha dolido en el orgullo. Tienes que reconocerlo, con esa mierda de coche, \
+        y el cabrón se ha atrevido a adelantarte. En el momento en que te zafas del pesado camión que te tenía atrapado en \
+        tu carril, pisas a fondo el acelerador y adelantas un par de coches en fila. Tienes ganas de ver la cara que le queda \
+        al tío del coche negro cuando le pases bufando al lado. de repente la silueta del coche negro de antes se cruza en tu \
+        camino. Te cuesta reaccionar, y darte cuenta de que el coche está en mitad del carril en el que estás. Ha tenido un \
+        accidente, y no te da tiempo a reaccionar antes de que tú te unas a él, a demasiada velocidad. Todo está negro. \
+        Recuperas la consciencia momentáneamente. Te duelen tantas partes de tu cuerpo que no eres capaz de saber qué es lo \
+        peor. Estás atrapada entre el amasijo de hierros y lo último que ves, es un grupo de paramédicos observándote, con \
+        un rostro preocupado. No te están intentando salvar. Es inútil, es demasiado tarde para ti.",
+
+        11: "Es el 14 de Noviembre del 2020, Queda una hora para que llegue, y tienes tres fogones encendidos. Su plato \
+        favorito, verás que cara le queda a tu pareja cuando llegue a casa y vea lo que le has preparado. Te mueves \
+        rápidamente entre los trastos de cocina, el aceite chisporrotea en una sartén, el calor empieza a agobiarte. \
+        Pero sabes que el esfuerzo merece la pena, puede que ni acabéis la cena, y ya estéis con el postre. ¡Argh! \
+        ¡Eso ha dolido! Ni siquiera sabes cómo lo has hecho, pero te has cortado en el brazo. ¡joder que torpe! ¡Y duele! \
+        El corte no parece profundo, pero... es mucha sangre, y es toda tuya... Vas corriendo al teléfono, estás un \
+        poco mareada, y tropiezas de camino al teléfono. Comienzas a ponerte nerviosa, y agarras torpemente el teléfono \
+        ¿Para qué? Es sólo un corte, no van a traer una ambulancia por un corte con un cuchillo, qué estupidez. Te pones \
+        el trapo de cocina en el brazo, hay demasiada sangre. Corres hacia la puerta, y te das cuenta de que no has cogido \
+        llaves, ni nada, giras sobre ti misma y resbalas, cayendo al suelo, con tu propia sangre. Te intentas levantar, pero \
+        estás débil. Vuelves al teléfono, la ambulancia ya no parece tan exagerada. Hay sangre por todas partes, el teléfono \
+        se te resbala, te golpeas con algo que no sabes qué es, el mundo gira a tu alrededor, cada vez más rápido, y más oscuro. \
+        El mundo sigue girando, pero esta vez sin ti, estás muerta",
+
+        12: "Es el 24 de Abril del 2020, Leche. ¿Leche? No, leche ya hay... Mentalmente repasas la lista de la compra, mientras \
+        te acercas al supermercado, paseando por la calle. Hay algo en el ambiente, te das cuenta cuando sales de tus \
+        pensamientos llenos de fruta y verdura. La gente parece inquieta... Un perro te ladra, asustandote, parece \
+        asustado por algo, pero no sabrías decir por qué. Pronto lo averiguas, de repente la leche importa más bien poco. Oyes \
+        un zumbido cada vez más fuerte, un avión, miras hacia arriba, instintivamente. Entre las nubes se distingue una silueta. \
+        No, tres. Tres aviones, negros, dos pequeños, y otro más grande. Te sorprenden, no son comerciales, y vuelan bastante bajo, \
+        haciendo un ruido ensordecedor, con una maniobra brusca los dos pequeños se alejan del grande, que sigue su camino. Aún \
+        a lo lejos, ves como el grande deja caer algo. Por un momento te da un vuelco el corazón. Pero desechas la idea, es \
+        demasiado estúpida, no hay motivo para que os estén atacando... La tele decía cosas, pero siempre exagera... Un flash \
+        cegador envuelve todo de blanco, cuando recuperas la vista, ves una bola de luz a lo lejos. Un viento invisible \
+        te sacude fugazmente. Instintivamente te llevas las manos a los oídos, que han sido invadidos por un dolor increíble, \
+        notas la sangre, y te das cuenta de qué ha pasado. El ruído de la explosión te ha reventado los tímpanos. Si no lo has \
+        oído, es simplemente porque te ha dejado sorda. Confusa, te levantas, y miras al frente, de nuevo. La explosión está \
+        arrasando los edificios cercanos, y se acerca. Rápidamente. Notas el calor durante un segundo, después la explosión te \
+        envuelve y no notas nada más...",
+
+        13: "Es el 6 de Mayo del 2020, turbulencias. Has visto demasiadas películas para asustarte. No son más que turbulencias, \
+        nada de lo que preocuparse. Ves como la anciana que está a tu lado respira agitadamente. Parece que ella no ha visto \
+        las mismas películas que tú. Te dispones a calmarla, decirle que no es nada de lo que asustarse, pero una gran \
+        turbulencia agita el avión, haciendo caer un par de maletas y arrancando gritos del pasaje. Ahora sí, te asustas. Los \
+        gritos del lado derecho del pasaje te hacen mirar. No lo ves bien, pero a través de las ventanillas te parece ver humo. \
+        Te mueves para verlo mejor, efectivamente, un motor está soltando demasiado humo. Incluso comienzas a ver algunas llamas. \
+        Intentas tranquilizarte, has oído más de una vez que los aviones pueden volar sin un motor, te aferras a ese pensamiento. Un \
+        crujido estremecedor te asusta, de golpe lo ves y te preguntas ¿Puede volar sin un ala? El avión comienza a dar vueltas y te \
+        golpea contra el asiento. No lo sabes porque todo ocurre demasiado deprisa, pero el avión estalla al impactar contra el suelo. \
+        Las últimas imágenes que ves son las llamas consumiendo el aparato con todos los que hay dentro. No hay supervivientes y tú no \
+        eres una excepción, sólo eres una bolsa negra de plástico más, con un cuerpo que tardarán en reconocer.",
+
+        14: "Es el 25 de Diciembre del 2020, la tarde es aburrida, no tienes mucho qué hacer. En la tele no dan nada, y no tienes series \
+        para ver. No apetece nada salir, así que vas a la cocina, a preparar algo de cena, para matar el rato un poco. Algo huele mal. \
+        Deberías haber revisado mejor las fechas de caducidad. Empiezas a olfatear la cocina, buscando de dónde viene el olor. No es \
+        de la sartén, no es de la comida, viene del fregadero ¿Hace cuanto que esos cacharros están ahí? Viene de debajo ¿La basura? \
+        ¿No la has sacado hoy? No. Es gas. Lo sabes en el momento en que abres el armario, y un vaporazo de fuerte olor a gas te sacude. \
+        Te arrojas sobre la llave, pero ya está cerrada. Es algún escape, pero no lo ves. Te levantas rápidamente, y no sabes si apagar \
+        todas las luces, o abrir una ventana. No tienes claro cómo reaccionar, pero da igual, la sartén ha decidido por ti, y el aceite \
+        se ha quemado, soltando una pequeña llama, lo ultimo que ves es un pequeño resplandor",
+
+        15: "Es el 24 de Agosto del 2045, el viaje va de mal en peor. Creías que la India podía ser un destino entretenido, pero por \
+        el momento lo único que has hecho ha sido gastar dinero. Y encima el hostal donde te alojas es una mierda. En el folleto \
+        parecía bonito, con piscina... pero la triste realidad es que la piscina es una charca maloliente, no te sorprendería ver \
+        un cadáver flotando en ella. Te metes en tu habitación, e intentas conciliar el sueño en tu incómoda cama... Te levantas \
+        en tu cama mareado, ¿tienes fiebre? Sí, un poco. Te yergues sobre ti mismo, y un mareo te obliga a echarte de nuevo. \
+        Perfecto, has debido agarrar una gripe, o algo, en mitad del viaje. Y parece algo gordo, la cabeza te da vueltas. Llamas \
+        a recepción, y en seguida te envían alguien. Te ve, te dice que te tumbes en la cama, y usa el teléfono para hablar con \
+        alguien, pero no entiendes lo que dicen. La fiebre sigue subiendo, al cabo de una hora no puedes apenas moverte de la cama, \
+        y todo tu cuerpo arde. Un médico, deduces por su maletín y por sus ropas, entra en tu habitación, y comienza a examinarte. \
+        Te hace unas pruebas, y te pregunta cosas, usando al primer chico como traductor. Intentas responder, como puedes, pero la \
+        fiebre te hace casi imposible entender qué te preguntan. Tras unos minutos, ves a través de la fiebre cómo el médico y el \
+        otro chico hablan, no lo entiendes, pero las caras no son buenas. El chico te mira, con cara de lástima, y te dice algo que \
+        no entiendes, a pesar de que lo dice en inglés. La fiebre sigue subiendo, deliras, sudas, te retuerces de dolor. No sabes dónde \
+        estás. No sabes qué te pasa... Afortunadamente al cabo de un rato descansas... Estás muerto"
+}
+
+language_stories = {
+    "en-GB": {
+        "translation": english_stories
+    },
+    "en-US": {
+        "translation": english_stories
+    },
+    "en-IN": {
+        "translation": english_stories
+    },
+    "en-CA": {
+        "translation": english_stories
+    },
+    "en-AU": {
+        "translation": english_stories
+    },
+    "es-ES": {
+        "translation": spanish_stories
+    }
+}
