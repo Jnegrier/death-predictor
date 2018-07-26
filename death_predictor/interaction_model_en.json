@@ -1,0 +1,124 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "death predictor",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "yes I am",
+                        "sure",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "nameIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "I am {name}",
+                        "i'm {name}",
+                        "its {name}",
+                        "my name is {name}",
+                        "{name}"
+                    ]
+                },
+                {
+                    "name": "dobIntent",
+                    "slots": [
+                        {
+                            "name": "dob",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "its {dob}",
+                                "i was born on {dob}",
+                                "{dob}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "is {dob}",
+                        "I was born on {dob}",
+                        "{dob}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "restart",
+                        "start over"
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "dobIntent",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent."
+                    },
+                    "slots": [
+                        {
+                            "name": "dob",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please tell me when you were born"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Are you sure you were born on {dob}"
+                    }
+                ]
+            }
+        ]
+    }
+}

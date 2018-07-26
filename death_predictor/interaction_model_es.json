@@ -1,0 +1,140 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hora de morir",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "no más",
+                        "cancelar"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "ayudame",
+                        "ayuda"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "concluye",
+                        "finaliza",
+                        "chao",
+                        "adiós",
+                        "termina",
+                        "detente",
+                        "stop",
+                        "para"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "claro",
+                        "vale",
+                        "ok",
+                        "dale",
+                        "si"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "nameIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "me llamo {name}",
+                        "yo soy {name}",
+                        "mi nombre es {name}",
+                        "soy {name}",
+                        "{name}"
+                    ]
+                },
+                {
+                    "name": "dobIntent",
+                    "slots": [
+                        {
+                            "name": "dob",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "el {dob}",
+                                "nací en {dob}",
+                                "{dob}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "el {dob}",
+                        "nací el {dob}",
+                        "he nacido el {dob}",
+                        "yo nací el {dob}",
+                        "{dob}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "comenzar de nuevo",
+                        "empezar de nuevo",
+                        "reiniciar"
+                    ]
+                }
+            ],
+            "types": []
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "dobIntent",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent"
+                    },
+                    "slots": [
+                        {
+                            "name": "dob",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "dime cuando naciste por favor"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "de verdad naciste el {dob} ?"
+                    }
+                ]
+            }
+        ]
+    }
+}

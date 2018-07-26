@@ -341,7 +341,7 @@ spanish_stories = {
         5: "Es el 17 de Mayo del 2053, llevas las manos en los bolsillos, es una noche especialmente fría y \
         tus manos están un poco entumecidas. Sigues caminando, camino a tu nueva casa. La llamas nueva, pero \
         ya llevas tiempo viviendo en ella. El suficiente como para que el camino que haces te sea rutinario. \
-        Para creer que no te espera ninguna sorpresa. ¡Eh tú!¡gilipollas! Miras detrás de ti. Un grupo no muy \
+        Para creer que no te espera ninguna sorpresa.  Eh tú! gilipollas! Miras detrás de ti. Un grupo no muy \
         numeroso se acerca. Uno lleva un bate, otros llevan más objetos que no traen buenos augurios. No te lo \
         piensas y te lanzas a correr en dirección contraria, mientras comienzan a perseguirte. No tienen motivos \
         por ir a por mí. ¿Porqué van a por mí? piensas mientras corres, No necesitan motivos, es la puta lotería. \
@@ -426,7 +426,7 @@ spanish_stories = {
         favorito, verás que cara le queda a tu pareja cuando llegue a casa y vea lo que le has preparado. Te mueves \
         rápidamente entre los trastos de cocina, el aceite chisporrotea en una sartén, el calor empieza a agobiarte. \
         Pero sabes que el esfuerzo merece la pena, puede que ni acabéis la cena, y ya estéis con el postre. ¡Argh! \
-        ¡Eso ha dolido! Ni siquiera sabes cómo lo has hecho, pero te has cortado en el brazo. ¡joder que torpe! ¡Y duele! \
+        ¡Eso ha dolido! Ni siquiera sabes cómo lo has hecho, pero te has cortado en el brazo. joder que torpe! ¡Y duele! \
         El corte no parece profundo, pero... es mucha sangre, y es toda tuya... Vas corriendo al teléfono, estás un \
         poco mareada, y tropiezas de camino al teléfono. Comienzas a ponerte nerviosa, y agarras torpemente el teléfono \
         ¿Para qué? Es sólo un corte, no van a traer una ambulancia por un corte con un cuchillo, qué estupidez. Te pones \
